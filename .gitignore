@@ -1,0 +1,55 @@
+# ===============================
+# Kotlin / Compose Multiplatform
+# ===============================
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Kotlin
+*.class
+*.log
+
+# Kotlin Native / Compose Desktop
+konan/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config
+local.properties
+
+# Android (jika menggunakan Compose for Android)
+*.apk
+*.aab
+*.dex
+bin/
+gen/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Jetpack Compose / Multiplatform cache
+.kotlin.*
+
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/build
+/captures
+.externalNativeBuild
+.cxx
